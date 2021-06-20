@@ -5,9 +5,9 @@ container_ingress "frontend" {
     target = "container.envoy"
 
     port {
-        local = 80
-        remote = 80
-        host = 80
+        local = 8080
+        remote = 8080
+        host = 8080
     }
 
     network {
